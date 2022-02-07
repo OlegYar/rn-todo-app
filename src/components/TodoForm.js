@@ -22,7 +22,7 @@ const TodoForm = ({ onSubmit }) => {
 				autoCorrect={false}
 				autoCapitalize='none'
 			/>
-			<Button title='Добавить' onPress={handlePress}/>
+			<Button title='Добавить дело' onPress={handlePress}/>
 		</View>
 	)
 }
